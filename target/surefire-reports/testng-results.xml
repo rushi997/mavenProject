@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signIn]]>
+    </line>
+    <line>
+      <![CDATA[sending moNum ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign-in Button]]>
+    </line>
+    <line>
+      <![CDATA[sending password ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[Handling popup if present]]>
+    </line>
+    <line>
+      <![CDATA[funds are Rs.5,00,000.00]]>
+    </line>
+    <line>
+      <![CDATA[tc is passed]]>
+    </line>
+    <line>
+      <![CDATA[logout from neostox]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signIn]]>
+    </line>
+    <line>
+      <![CDATA[sending moNum ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign-in Button]]>
+    </line>
+    <line>
+      <![CDATA[sending password ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[Handling popup if present]]>
+    </line>
+    <line>
+      <![CDATA[tc is passed]]>
+    </line>
+    <line>
+      <![CDATA[logout from neostox]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-17T13:52:00 IST" name="neOStoxTest.ValidateUserNameAndFundsusingPropertyTest" finished-at="2022-12-17T13:52:32 IST" duration-ms="31912">
+    <groups>
+    </groups>
+    <test started-at="2022-12-17T13:52:00 IST" name="Command line test" finished-at="2022-12-17T13:52:32 IST" duration-ms="31912">
+      <class name="neOStoxTest.ValidateUserNameAndFundsusingPropertyTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:00 IST" name="launch" finished-at="2022-12-17T13:52:11 IST" duration-ms="10685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:11 IST" name="loginToNeoStox" finished-at="2022-12-17T13:52:20 IST" duration-ms="9013" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signIn]]>
+            </line>
+            <line>
+              <![CDATA[sending moNum ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign-in Button]]>
+            </line>
+            <line>
+              <![CDATA[sending password ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[Handling popup if present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="getFunds()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:20 IST" name="getFunds" finished-at="2022-12-17T13:52:21 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[funds are Rs.5,00,000.00]]>
+            </line>
+            <line>
+              <![CDATA[tc is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFunds -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:21 IST" name="logoutFromApplication" finished-at="2022-12-17T13:52:22 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout from neostox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:22 IST" name="loginToNeoStox" finished-at="2022-12-17T13:52:29 IST" duration-ms="6285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signIn]]>
+            </line>
+            <line>
+              <![CDATA[sending moNum ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign-in Button]]>
+            </line>
+            <line>
+              <![CDATA[sending password ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[Handling popup if present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:29 IST" name="validateUserName" finished-at="2022-12-17T13:52:30 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:30 IST" name="logoutFromApplication" finished-at="2022-12-17T13:52:31 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout from neostox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:neOStoxTest.ValidateUserNameAndFundsusingPropertyTest@55183b20]" started-at="2022-12-17T13:52:31 IST" name="closingBrowser" finished-at="2022-12-17T13:52:32 IST" duration-ms="1304" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- neOStoxTest.ValidateUserNameAndFundsusingPropertyTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- neOStoxTest.ValidateUserNameAndFundsusingPropertyTest -->
+</testng-results>
