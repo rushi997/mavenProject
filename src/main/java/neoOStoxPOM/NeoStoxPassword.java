@@ -26,6 +26,22 @@ public class NeoStoxPassword
 		UtilityNew.wait(driver, 1000);
 		password.sendKeys(passWord);
 		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 	
