@@ -21,6 +21,15 @@ public class NeoStoxStart
 	{
 		UtilityNew.wait(driver, 2000);
 		signButton.click();
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
